@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "S_M1_001",
+    "category": "기출",
+    "exam_type": "SQLD",
+    "subject": "1과목: 데이터 모델링의 이해",
+    "question": "데이터 모델링의 3요소(Things, Attributes, Relationships) 중 '엔터티(Entity)'에 해당하는 것은?",
+    "options": ["어떤 것(Things)", "성격(Attributes)", "관계(Relationships)", "데이터 타입"],
+    "answer_idx": 0,
+    "explanation": "사서의 한마디: 엔터티는 '관리하고자 하는 대상' 즉 '어떤 것'입니다. 사람, 장소, 물건 등이 해당하죠. 암기: '엔어관(엔터티, 속성, 관계)'!"
+  },
+  {
+    "id": "S_M1_002",
+    "category": "기출",
+    "exam_type": "SQLD",
+    "subject": "1과목: 데이터 모델링의 이해",
+    "question": "모델링의 3단계 진행 순서로 올바른 것은?",
+    "options": ["개념적 -> 논리적 -> 물리적", "물리적 -> 논리적 -> 개념적", "논리적 -> 개념적 -> 물리적", "개념적 -> 물리적 -> 논리적"],
+    "answer_idx": 0,
+    "explanation": "데이터 강사 Tip: 갈수록 구체화됩니다. [개논물] 순서로 외우세요. 개념(추상적)에서 물리(구체적 하드웨어)로 갑니다. [SQLD] 단골!"
+  },
+  {
+    "id": "S_M1_003",
+    "category": "기출",
+    "exam_type": "SQLD",
+    "subject": "1과목: 데이터 모델링의 이해",
+    "question": "데이터 모델링의 특징 3가지에 해당하지 않는 것은?",
+    "options": ["추상화(Abstraction)", "단순화(Simplification)", "명확화(Clarity)", "복잡화(Complexity)"],
+    "answer_idx": 3,
+    "explanation": "사서의 한마디: 모델링은 현실을 알기 쉽게 '요약'하는 겁니다. 복잡하게 만드는 게 아니죠. '추단명'으로 기억하세요!"
+  },
+  {
+    "id": "S_M1_004",
+    "category": "기출",
+    "exam_type": "SQLD",
+    "subject": "1과목: 데이터 모델링의 이해",
+    "question": "두 개의 엔터티 사이에서 관계를 맺을 때, 반드시 참여해야 하는지 아니면 참여하지 않아도 되는지를 나타내는 속성은?",
+    "options": ["관계명", "관계차수", "선택성(Optionality)", "식별자"],
+    "answer_idx": 2,
+    "explanation": "데이터 강사 Tip: 필수냐 선택이냐를 묻는 문제입니다. '선택성' 혹은 '선택 사양'이라고 부릅니다. ERD에서 점선과 실선의 차이이기도 하죠."
+  },
+  {
+    "id": "S_M1_005",
+    "category": "기출",
+    "exam_type": "SQLD",
+    "subject": "1과목: 데이터 모델링의 이해",
+    "question": "속성(Attribute)의 정의로 가장 적절한 것은?",
+    "options": ["데이터의 최소 단위", "엔터티의 인스턴스 집합", "테이블의 행(Row)", "관계의 연결 고리"],
+    "answer_idx": 0,
+    "explanation": "사서의 한마디: 속성은 더 이상 쪼개지지 않는 '데이터의 최소 단위'입니다. 책의 'ISBN'이나 '저자명' 같은 정보 조각들이죠."
+  }
+]
