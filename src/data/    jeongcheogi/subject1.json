@@ -1,1 +1,32 @@
-
+[
+  {
+    "id": "J_S1_001",
+    "category": "기출",
+    "exam_type": "정처기",
+    "subject": "1과목: 소프트웨어 설계",
+    "question": "UI 설계 원칙 중 누구나 쉽게 이해하고 사용할 수 있어야 한다는 원칙은?",
+    "options": ["직관성(Intuitiveness)", "유효성(Effectiveness)", "학습성(Learnability)", "유연성(Flexibility)"],
+    "answer_idx": 0,
+    "explanation": "사서의 한마디: 사용자가 고민 없이 바로 쓸 수 있어야 좋은 UI입니다. '직관'적으로 알아야 하죠! [정처기] 단골 키워드입니다."
+  },
+  {
+    "id": "J_S1_002",
+    "category": "기출",
+    "exam_type": "정처기",
+    "subject": "1과목: 소프트웨어 설계",
+    "question": "애플리케이션의 하위 모듈에서 상위 모듈 방향으로 제어 경로를 따라 이동하며 테스트하는 하향식 통합 테스트 기법은?",
+    "options": ["Top-down", "Bottom-up", "Regression", "Smoke"],
+    "answer_idx": 1,
+    "explanation": "데이터 강사 Tip: 아래(Bottom)에서 위(Up)로 올라가니 상향식입니다. 상향식은 드라이버(Driver), 하향식은 스텁(Stub)이 필요하다는 점도 세트로 외우세요! [정처기/빅분기 공통]"
+  },
+  {
+    "id": "J_S1_003",
+    "category": "기출",
+    "exam_type": "정처기",
+    "subject": "1과목: 소프트웨어 설계",
+    "question": "객체지향 설계 원칙(SOLID) 중 한 클래스는 하나의 책임만 가져야 한다는 원칙은?",
+    "options": ["LSP", "DIP", "SRP", "ISP"],
+    "answer_idx": 2,
+    "explanation": "사서의 한마디: SRP(Single Responsibility Principle)입니다. 책장에 요리책이랑 프로그래밍 책을 섞어두지 않는 것과 같죠. 암기: '단(Single)책(Responsibility)'!"
+  }
+]
