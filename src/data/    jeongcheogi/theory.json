@@ -1,39 +1,5 @@
 [
   {
-    "id": "jeongcheogi_database_001",
-    "category": "theory",
-    "exam_type": "jeongcheogi",
-    "subject": "database",
-    "question": "데이터베이스의 논리적 독립성에 대한 설명으로 옳은 것은?",
-    "options": [
-      "내부 스키마가 바뀌어도 개념 스키마가 영향을 받지 않는 성질",
-      "개념 스키마가 바뀌어도 외부 스키마가 영향을 덜 받는 성질",
-      "외부 스키마가 바뀌어도 내부 스키마가 영향을 받지 않는 성질",
-      "물리 저장 구조와 상관없이 항상 동일한 성능을 보장하는 성질"
-    ],
-    "answer_idx": 1,
-    "explanation": "논리적 독립성은 개념 스키마 변경이 외부 스키마에 미치는 영향을 최소화하는 성질입니다.",
-    "difficulty": "medium",
-    "tags": ["DB", "독립성"]
-  },
-  {
-    "id": "jeongcheogi_swdesign_001",
-    "category": "theory",
-    "exam_type": "jeongcheogi",
-    "subject": "softwareDesign",
-    "question": "객체지향 설계 원칙 중 OCP에 해당하는 설명은?",
-    "options": [
-      "확장에는 열려 있고 변경에는 닫혀 있어야 한다",
-      "하나의 클래스는 하나의 책임만 가져야 한다",
-      "상위 클래스는 하위 클래스로 치환 가능해야 한다",
-      "구체 클래스보다 인터페이스에 의존해야 한다"
-    ],
-    "answer_idx": 0,
-    "explanation": "OCP는 Open-Closed Principle로, 기능 확장은 가능하지만 기존 코드는 덜 수정되도록 설계하는 원칙입니다.",
-    "difficulty": "easy",
-    "tags": ["객체지향", "설계원칙"]
-  },
-  {
     "id": "T_1_001",
     "subject": "1과목: 소프트웨어 설계",
     "title": "디자인 패턴 3요소 (생구행)",
@@ -74,6 +40,34 @@
     "title": "트랜잭션의 특징 (ACID)",
     "content": "● Atomicity(원자성): All or Nothing\n● Consistency(일관성): 성공 후 일관된 상태 유지\n● Isolation(고립성): 중간 과정 침범 불가\n● Durability(영속성): 결과는 영구 보존",
     "importance": "★★★ [정처기/SQLP]"
+  },
+  {
+    "id": "T_4_001",
+    "subject": "4과목: 프로그래밍 언어",
+    "title": "객체지향 5원칙 (SOLID)",
+    "content": "● S(단일 책임): 한 클래스는 하나의 책임만\n● O(개방-폐쇄): 확장은 Open, 수정은 Close\n● L(리스코프 치환): 자식은 부모의 기능 수행 가능\n● I(인터페이스 분리): 필요한 것만 연결\n● D(의존 역전): 구체화보다 추상화에 의존",
+    "importance": "★★★ [정처기 필수]"
+  },
+  {
+    "id": "T_4_002",
+    "subject": "4과목: 프로그래밍 언어",
+    "title": "OSI 7계층 암기법 (아파서 티내다 피나다)",
+    "content": "● 7층 Application (응용)\n● 6층 Presentation (표현)\n● 5층 Session (세션)\n● 4층 Transport (전송)\n● 3층 Network (네트워크)\n● 2층 Data Link (데이터링크)\n● 1층 Physical (물리)",
+    "importance": "★★★ [정처기/정보보안]"
+  },
+  {
+    "id": "T_5_001",
+    "subject": "5과목: 정보시스템 구축",
+    "title": "보안 3요소 (기무가)",
+    "content": "● Confidentiality(기밀성): 인가된 사용자만 접근\n● Integrity(무결성): 인가된 사용자만 수정\n● Availability(가용성): 원할 때 언제든 사용",
+    "importance": "★★★ [정처기/SQLP 공통]"
+  },
+  {
+    "id": "T_5_002",
+    "subject": "5과목: 정보시스템 구축",
+    "title": "암호화 알고리즘 분류",
+    "content": "● 대칭키(단일키): DES, AES, SEED, ARIA (속도 빠름)\n● 비대칭키(공개키): RSA, ECC (키 관리가 쉬움)\n● 해시(일방향): SHA, MD5 (복호화 불가)",
+    "importance": "★★ [정처기]"
   }
 ]
-]
+
