@@ -1,1 +1,36 @@
-
+[
+  {
+    "id": "jeongcheogi_database_001",
+    "category": "theory",
+    "exam_type": "jeongcheogi",
+    "subject": "database",
+    "question": "데이터베이스의 논리적 독립성에 대한 설명으로 옳은 것은?",
+    "options": [
+      "내부 스키마가 바뀌어도 개념 스키마가 영향을 받지 않는 성질",
+      "개념 스키마가 바뀌어도 외부 스키마가 영향을 덜 받는 성질",
+      "외부 스키마가 바뀌어도 내부 스키마가 영향을 받지 않는 성질",
+      "물리 저장 구조와 상관없이 항상 동일한 성능을 보장하는 성질"
+    ],
+    "answer_idx": 1,
+    "explanation": "논리적 독립성은 개념 스키마 변경이 외부 스키마에 미치는 영향을 최소화하는 성질입니다.",
+    "difficulty": "medium",
+    "tags": ["DB", "독립성"]
+  },
+  {
+    "id": "jeongcheogi_swdesign_001",
+    "category": "theory",
+    "exam_type": "jeongcheogi",
+    "subject": "softwareDesign",
+    "question": "객체지향 설계 원칙 중 OCP에 해당하는 설명은?",
+    "options": [
+      "확장에는 열려 있고 변경에는 닫혀 있어야 한다",
+      "하나의 클래스는 하나의 책임만 가져야 한다",
+      "상위 클래스는 하위 클래스로 치환 가능해야 한다",
+      "구체 클래스보다 인터페이스에 의존해야 한다"
+    ],
+    "answer_idx": 0,
+    "explanation": "OCP는 Open-Closed Principle로, 기능 확장은 가능하지만 기존 코드는 덜 수정되도록 설계하는 원칙입니다.",
+    "difficulty": "easy",
+    "tags": ["객체지향", "설계원칙"]
+  }
+]
