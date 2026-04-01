@@ -1,1 +1,14 @@
-
+[
+  {
+    "id": "JUNG_2026_01_001",
+    "category": "기출",
+    "exam_type": "정처기",
+    "session": "2024년 1회",
+    "subject": "1과목: 소프트웨어 설계",
+    "question": "디자인 패턴 중 행위(Behavioral) 패턴에 해당하지 않는 것은?",
+    "options": ["Strategy", "Observer", "State", "Prototype"],
+    "answer_idx": 3,
+    "explanation": "사서의 한마디: Prototype은 생성(Creational) 패턴입니다. 행위 패턴은 객체 간의 상호작용에 집중하죠. 암기: '상행위(상태, 전략, 옵저버 등)'!"
+  }
+  // 여기에 다음 문제를 쉼표(,)로 구분해서 계속 추가하면 됩니다.
+]
